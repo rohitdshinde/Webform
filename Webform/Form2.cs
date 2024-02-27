@@ -43,5 +43,9 @@ namespace Webform
             textBox3.Text=num3.ToString();
         }
 
+        private void textBox3_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

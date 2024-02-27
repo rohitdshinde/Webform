@@ -240,7 +240,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(0, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(464, 39);
@@ -250,7 +250,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label1.Location = new System.Drawing.Point(0, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(464, 36);

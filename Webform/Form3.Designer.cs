@@ -28,174 +28,167 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
-            checkBox3 = new CheckBox();
-            label4 = new Label();
-            label5 = new Label();
-            textBox2 = new TextBox();
-            label6 = new Label();
-            button1 = new Button();
-            label7 = new Label();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = SystemColors.MenuHighlight;
-            label1.Location = new Point(271, 22);
-            label1.Name = "label1";
-            label1.Size = new Size(353, 41);
-            label1.TabIndex = 0;
-            label1.Text = "CHOICE  T-Shirt COLLECTION ";
-            label1.Click += label1_Click;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label1.Location = new System.Drawing.Point(271, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(353, 41);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "CHOICE  T-Shirt COLLECTION ";
             // 
             // label2
             // 
-            label2.Font = new Font("Segoe UI Symbol", 21.75F, FontStyle.Bold | FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point);
-            label2.Location = new Point(12, 73);
-            label2.Name = "label2";
-            label2.Size = new Size(251, 43);
-            label2.TabIndex = 1;
-            label2.Text = "T-shirt Quantity";
-            label2.Click += label2_Click;
+            this.label2.Font = new System.Drawing.Font("Segoe UI Symbol", 21.75F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(12, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(251, 43);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "T-shirt Quantity";
             // 
             // textBox1
             // 
-            textBox1.BackColor = SystemColors.Info;
-            textBox1.Location = new Point(255, 88);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(90, 23);
-            textBox1.TabIndex = 2;
-            textBox1.TextChanged += textBox1_TextChanged;
+            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox1.Location = new System.Drawing.Point(255, 88);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(90, 23);
+            this.textBox1.TabIndex = 2;
             // 
             // label3
             // 
-            label3.Font = new Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(-1, 131);
-            label3.Name = "label3";
-            label3.Size = new Size(224, 53);
-            label3.TabIndex = 3;
-            label3.Text = "Choose Size";
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Location = new System.Drawing.Point(-1, 131);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(224, 53);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Choose Size";
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(12, 196);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(122, 19);
-            checkBox1.TabIndex = 4;
-            checkBox1.Text = " Small Size(Rs.125)";
-            checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(12, 196);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(122, 19);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = " Small Size(Rs.125)";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // checkBox2
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(12, 234);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(135, 19);
-            checkBox2.TabIndex = 5;
-            checkBox2.Text = "Medium Size(Rs.175)";
-            checkBox2.UseVisualStyleBackColor = true;
-            checkBox2.CheckedChanged += checkBox2_CheckedChanged;
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(12, 234);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(135, 19);
+            this.checkBox2.TabIndex = 5;
+            this.checkBox2.Text = "Medium Size(Rs.175)";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // checkBox3
             // 
-            checkBox3.AutoSize = true;
-            checkBox3.Location = new Point(12, 272);
-            checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(119, 19);
-            checkBox3.TabIndex = 6;
-            checkBox3.Text = "Large Size(Rs.250)";
-            checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(12, 272);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(119, 19);
+            this.checkBox3.TabIndex = 6;
+            this.checkBox3.Text = "Large Size(Rs.250)";
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
-            label4.Font = new Font("Times New Roman", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(329, 298);
-            label4.Name = "label4";
-            label4.Size = new Size(171, 63);
-            label4.TabIndex = 7;
-            label4.Text = "Special offer --";
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(329, 298);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(171, 63);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Special offer --";
             // 
             // label5
             // 
-            label5.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(58, 347);
-            label5.Name = "label5";
-            label5.Size = new Size(832, 36);
-            label5.TabIndex = 8;
-            label5.Text = "Enter Promocode and get 10%Discount(promocode \"TRUEBLUE\")";
-            label5.Click += label5_Click;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(58, 347);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(832, 36);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Enter Promocode and get 10%Discount(promocode \"TRUEBLUE\")";
             // 
             // textBox2
             // 
-            textBox2.ForeColor = SystemColors.MenuHighlight;
-            textBox2.Location = new Point(375, 386);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(77, 23);
-            textBox2.TabIndex = 9;
-            textBox2.TextChanged += textBox2_TextChanged;
+            this.textBox2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox2.Location = new System.Drawing.Point(375, 386);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(77, 23);
+            this.textBox2.TabIndex = 9;
             // 
             // label6
             // 
-            label6.Location = new Point(164, 457);
-            label6.Name = "label6";
-            label6.Size = new Size(221, 23);
-            label6.TabIndex = 10;
-            label6.Text = "Applying  9%GST  on Final order  price";
+            this.label6.Location = new System.Drawing.Point(164, 457);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(221, 23);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Applying  9%GST  on Final order  price";
             // 
             // button1
             // 
-            button1.ForeColor = SystemColors.InfoText;
-            button1.Location = new Point(375, 457);
-            button1.Name = "button1";
-            button1.Size = new Size(99, 23);
-            button1.TabIndex = 11;
-            button1.Text = "Final Amount";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.button1.Location = new System.Drawing.Point(375, 457);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(99, 23);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Final Amount";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label7
             // 
-            label7.Font = new Font("Cambria", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label7.Location = new Point(492, 457);
-            label7.Name = "label7";
-            label7.Size = new Size(80, 23);
-            label7.TabIndex = 12;
-            label7.Text = "0.00";
-            label7.Click += label7_Click;
+            this.label7.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(492, 457);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(80, 23);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "0.00";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Black;
-            ClientSize = new Size(930, 521);
-            Controls.Add(label7);
-            Controls.Add(button1);
-            Controls.Add(label6);
-            Controls.Add(textBox2);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(checkBox3);
-            Controls.Add(checkBox2);
-            Controls.Add(checkBox1);
-            Controls.Add(label3);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            ForeColor = SystemColors.MenuHighlight;
-            Name = "Form3";
-            Text = "Form3";
-            Load += Form3_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(930, 521);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.Name = "Form3";
+            this.Text = "Form3";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
